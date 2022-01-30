@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">DS Conversion</string>
+    <string name="inst_name"> Darshan Institute of Engineering &amp; Technology</string>
+    <string name="error_message_internet_connection">Internet connection is not active</string>
+    <string name="StringConversion">String Conversion</string>
+    <string name="BinaryTree">Binary Tree</string>
+    <string name="EvaluatePostfix">Evaluate Postfix</string>
+    <string name="EnterPostfix">Enter Postfix Expression</string>
+    <string name="Note">Note: Please enter string with SPACE between characters</string>
+    <string name="SolvedEg">Solved Examples</string>
+    <string name="Infix_Postfix">Infix to Postfix</string>
+    <string name="Infix_Prefix">Infix to Postfix</string>
+    <string name="Prefix_Postfix">Infix to Postfix</string>
+    <string name="alert_delete_title">Confirm Delete?</string>
+    <string name="alert_delete_message">Confirm Delete?</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">Cancel</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_convert">Convert</string>
+    <string name="btn_generatetree">Generate Tree</string>
+    <string name="btn_evaluate">Evaluate</string>
+    <string name="hintEnterString">Enter String</string>
+    <string name="Answer">Answer</string>
+    <string name="EnterNum">Enter a Number</string>
+    <string name="NoData">"No Data Found</string>
+
+
+    <string-array name="Conversion">
+        <item>Select a Conversion</item>
+        <item>Infix to Postfix</item>
+        <item>Postfix to Infix</item>
+        <item>Prefix to Infix</item>
+        <item>Postfix to Prefix</item>
+        <item>Prefix to Postfix</item>
+    </string-array>
+    <string name="developer_name">Pankti Dholakia (160540107100)</string>
+    <string name="mentored_name">Prof. Mayur Padia, Computer Engineering Department</string>
+</resources>

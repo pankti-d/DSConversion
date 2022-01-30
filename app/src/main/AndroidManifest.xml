@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aswdc_dsconversion">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_ds_icon"
+        android:roundIcon="@mipmap/ic_ds_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Design.DashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity android:name=".Design.ConversionActivity"
+                    android:screenOrientation="portrait"
+            android:parentActivityName=".Design.DashboardActivity"
+                    android:theme="@style/AppTheme"/>
+
+        <activity android:name=".Design.AddNodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Design.DashboardActivity"/>
+
+        <!--<activity android:name=".Design.TreeDisplay"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme"-->
+            <!--android:parentActivityName=".Design.AddNodeActivity"/>-->
+
+        <activity android:name=".Design.EvaluatePostfixActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Design.DashboardActivity"/>
+
+        <activity android:name=".Design.DrawDemoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Design.AddNodeActivity"/>
+
+        <activity android:name=".Design.ExampleRecyclerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Design.DashboardActivity"/>
+
+        <activity android:name=".Design.ExampleDisplayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Design.ExampleRecyclerActivity"/>
+        <activity android:name=".Design.StringlistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Design.StringlistActivity"></meta-data>
+        </activity>
+        <activity android:name=".Design.TreelistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Design.TreelistActivity"></meta-data>
+        </activity>
+        <activity android:name=".Design.PostfixlistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Design.PostfixlistActivity"></meta-data>
+        </activity>
+        <activity android:name=".Design.DeveloperActivity"/>
+        <activity android:name=".Design.FeedbackActivity"/>
+        <activity android:name=".Design.splash_Activity">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

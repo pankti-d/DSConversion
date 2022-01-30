@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "671224257907",
+    "firebase_url": "https://ds-conversion.firebaseio.com",
+    "project_id": "ds-conversion",
+    "storage_bucket": "ds-conversion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671224257907:android:d2464ba246922f9a2e3906",
+        "android_client_info": {
+          "package_name": "com.aswdc_dsconversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671224257907-23vmp3pleei107hb0b142gkbp6223o59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7JT80N17Xggowg0K0TshqX3W8_rDPGJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671224257907-23vmp3pleei107hb0b142gkbp6223o59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Design.DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dimen3"
+        android:padding="@dimen/dimen2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnStringConversion"
+                android:layout_width="@dimen/dimen0"
+                android:layout_height="@dimen/dimen115"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_gtorequal"
+                android:text="@string/StringConversion"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingTop="@dimen/dimen6"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@drawable/button_click"/>
+
+            <Button
+                android:id="@+id/btnPostfixEvaluation"
+                android:layout_width="@dimen/dimen0"
+                android:layout_height="@dimen/dimen115"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/dimen5"
+                android:drawableTop="@drawable/ic_calculator"
+                android:text="@string/EvaluatePostfix"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingTop="@dimen/dimen6"
+                android:background="@drawable/button_click"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnExamples"
+                android:layout_width="@dimen/dimen0"
+                android:layout_height="@dimen/dimen115"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_solved"
+                android:background="@drawable/button_click"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/dimen6"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/SolvedEg"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <Button
+                android:id="@+id/btnBinaryTree"
+                android:layout_width="@dimen/dimen0"
+                android:layout_height="@dimen/dimen115"
+                android:drawableTop="@drawable/ic_flow"
+                android:layout_weight="1"
+                android:background="@drawable/button_click"
+                android:layout_marginLeft="@dimen/dimen5"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/BinaryTree"
+                android:paddingTop="@dimen/dimen6"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
